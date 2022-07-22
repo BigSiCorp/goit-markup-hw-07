@@ -803,6 +803,7 @@ footer {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  color: #ffffff;
 }
 .mailing__entry-field:placeholder {
   font-family: "Roboto";
@@ -898,7 +899,7 @@ footer {
   padding: 12px 16px;
   resize: none;
 }
-.form__space:nth-child(-n+4) .form__entry-field:hover, .form__space:nth-child(-n+4) .form__entry-field:focus {
+.form__space:nth-child(-n+4) .form__entry-field:focus {
   border: 1px solid var(--secondary-text-color);
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -919,6 +920,7 @@ footer {
 }
 .form__space:nth-child(5) {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .checkbox {
@@ -970,7 +972,7 @@ footer {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form__entry-field:hover + .form__icon, .form__entry-field:focus + .form__icon {
+.form__entry-field:focus + .form__icon {
   fill: var(--secondary-text-color);
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
